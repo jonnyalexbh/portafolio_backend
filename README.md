@@ -5,6 +5,12 @@ $ npm init
 $ npm i express
 ```
 
+### Running project :
+``` bash
+$ npm start
+$ npm run start:dev
+```
+
 ### Node JS Lib
 * express
 * pino

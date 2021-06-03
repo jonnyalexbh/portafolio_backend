@@ -1,7 +1,5 @@
-exports.init = (app) => {
-  app.get('/health', (req, res) => res.send('aaaaa'));
+const { healthCheck } = require('./controllers/health_check');
 
-  app.get('/', (req, res) => {
-    res.status(200).send({ message: 'Hello World' });
-  });
+exports.init = (app) => {
+  app.get('/health', healthCheck);
 };
