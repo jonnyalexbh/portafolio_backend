@@ -1,0 +1,103 @@
+
+    * {
+      padding: 0;
+      position: relative;
+      margin: 0;
+    }
+
+    .sectionInfo {
+      background-color: #F4F4F4;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      width: 820px;
+      height: 800px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 4%);
+    }
+
+    .timeLine {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 15px;
+      width: 40%;
+    }
+
+    .aboutMe {
+      padding: 15px;
+      width: 60%;
+    }
+
+    .imgProfile {
+      height: 150px;
+      margin: auto;
+      margin-bottom: 18px;
+      margin-top: 39px;
+      width: 150px;
+    }
+
+    .sectionTimeLine {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 20px 5px;
+    }
+
+    .imgTimeLine {
+      height: 30px;
+      margin-right: 5px;
+      width: 30px;
+    }
+
+    .titleName {
+      font-size: 40px;
+      margin-bottom: 20px
+    }
+
+    .textName {
+      color: #4D8CF5;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .textDes {
+      color: #4D8CF5;
+      font-size: 14px;
+    }
+
+    .textGoAccount {
+      color: #4D8CF5;
+      padding-left: 15px;
+    }
+
+    .titleMyExperience {
+      font-size: 20px;
+      padding: 10px 0;
+      position: relative;
+    }
+
+    .titleMyExperience::before {
+      background-color: #F4F4F4;
+      content: "";
+      height: 2px;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+
+    .textMyExperience {
+      font-size: 16px;
+      line-height: 20px;
+      padding-bottom: 15px;
+      padding-top: 10px;
+    }
+
+    .contentExperience {
+      background-color: #FFFFFF;
+      border-radius: 10px;
+      padding: 10px;
+    }

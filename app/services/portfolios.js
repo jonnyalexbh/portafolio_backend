@@ -1,5 +1,6 @@
 const AWS = require('aws-sdk');
 const config = require('../../config');
+const logger = require('../logger');
 
 const awsConfig = {
   ...new AWS.Config({
@@ -26,6 +27,7 @@ exports.getPortfolio = (id) => {
     .promise()
     .then((item) => item)
     .catch((error) => {
-      console.log(error.message);
+      logger.error(error);
+      throw new Error('An error occurred while trying to get the portfolio');
     });
 };

@@ -24,7 +24,8 @@
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "pino": "^6.11.3",
-    "pino-pretty": "^5.0.2"
+    "pino-pretty": "^5.0.2",
+    "twitter": "^1.7.1"
   },
   "devDependencies": {
     "eslint": "^7.27.0",

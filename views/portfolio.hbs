@@ -5,20 +5,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/portfolio.css" type="text/css">
   <title>Portfolio</title>
 </head>
 
 <body>
-  <div class="portfolio">
-    <h1>Name: {{portfolio.Item.title}}</h1>
-    <div>
-      <p>{{portfolio.Item.description}}</p> <br><br>
+  <section class="sectionInfo">
+    <div class="timeLine">
+      <img src="{{portfolio.profile_image}}" alt="img-profile" class="imgProfile" />
+      <div class="contentExperience">
+        <h4 class="titleMyExperience">{{portfolio.title}} Timeline</h4>
+        {{#each portfolio.tweets}}
+        <div class="sectionTimeLine">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/James_Rodriguez_Training_2019-04-10_FC_Bayern_Muenchen-1.jpg/1280px-James_Rodriguez_Training_2019-04-10_FC_Bayern_Muenchen-1.jpg"
+            alt="img-profile-timeLine" class="imgTimeLine" />
+          <div>
+            <h5 class="textName">{{this.title}}</h5>
+            <span class="textDes">{{this.text}}</span>
+          </div>
+        </div>
+        {{/each}}
+        <span class="textGoAccount">Go to Account > </span>
+      </div>
     </div>
-    <div>
-      <img src="{{portfolio.Item.profile_image}}" width="300px" height="350px">
+    <div class="aboutMe">
+      <h3 class="titleName">{{portfolio.title}}</h3>
+      <div class="contentExperience">
+        <h4 class="titleMyExperience">My Work Experience</h4>
+        <p class="textMyExperience">{{portfolio.description}}
+        </p>
+      </div>
     </div>
-  </div>
-
+  </section>
 </body>
 
 </html>

@@ -1,0 +1,1 @@
+exports.DEFAULT_TWEETS_COUNT = 5;
