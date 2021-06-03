@@ -1,0 +1,23 @@
+{
+  "name": "zemoga_portafolio_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyalexbh/zemoga_portafolio_backend.git"
+  },
+  "keywords": [],
+  "author": "jonnyalexbh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonnyalexbh/zemoga_portafolio_backend/issues"
+  },
+  "homepage": "https://github.com/jonnyalexbh/zemoga_portafolio_backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
