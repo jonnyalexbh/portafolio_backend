@@ -16,6 +16,7 @@ $ npm run start:dev
 * pino
 * pino-pretty
 * aws-sdk
+* hbs
 
 ### Node JS Lib dev
 * nodemon
