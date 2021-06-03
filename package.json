@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/jonnyalexbh/zemoga_portafolio_backend#readme",
   "dependencies": {
+    "aws-sdk": "^2.920.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "pino": "^6.11.3",
     "pino-pretty": "^5.0.2"

@@ -15,6 +15,7 @@ $ npm run start:dev
 * express
 * pino
 * pino-pretty
+* aws-sdk
 
 ### Node JS Lib dev
 * nodemon
